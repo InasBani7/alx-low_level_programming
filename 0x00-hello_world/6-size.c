@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry Point
- * Description: The below program prints the size of various data types
- * Return 0 (Success)
+ * main - Entry Point The below program prints the size of various data types
+ * Return: 0 (Success)
  */
 int main(void)
 {
