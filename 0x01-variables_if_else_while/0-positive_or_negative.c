@@ -1,4 +1,4 @@
-#include<stdio>
+#include <stdio>
 /*
  * main - Entry Point
  * Description: detects if n is -ve or +ve and prints out a message accoringly
