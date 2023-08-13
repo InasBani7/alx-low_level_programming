@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * main - Entry Point
- * Description: detects if n is -ve or +ve and prints out a message accoringly
+ * main - Entry Point Positive or Negative
  * Return: 0 (success)
  */
 int main(void)
@@ -13,10 +12,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
-		fprintf("%i is negative\n",n);
+		fprintf("%d is negative\n", n);
 	else if (n > 0)
-		fprintf("%i is negative\n",n);
+		fprintf("%d is negative\n", n);
 	else
-		fprintf("%i is zero\n",n);
+		fprintf("%d is zero\n", n);
 	return (0);
 }
