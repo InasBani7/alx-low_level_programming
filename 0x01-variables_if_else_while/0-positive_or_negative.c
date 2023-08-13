@@ -8,11 +8,11 @@ int main(void)
 {
 	int n;
 
-	if (n < o)
-		fprint("is negative");
+	if (n < 0)
+		fprintf("is negative");
 	else if (n > 0)
-		fprint("is negative");
+		fprintf("is negative");
 	else
-		fprint("is zero");
+		fprintf("is zero");
 	return (0);
 }
