@@ -9,10 +9,10 @@ int main(void)
 	int n;
 
 	if (n < 0)
-		fprintf("is negative");
+		puts("is negative");
 	else if (n > 0)
-		fprintf("is negative");
+		puts("is negative");
 	else
-		fprintf("is zero");
+		puts("is zero");
 	return (0);
 }
