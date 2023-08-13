@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*
  * main - Entry Point
  * Description: detects if n is -ve or +ve and prints out a message accoringly
@@ -8,11 +10,13 @@ int main(void)
 {
 	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n < 0)
-		puts("is negative");
+		fprintf("%i is negative\n",n);
 	else if (n > 0)
-		puts("is negative");
+		fprintf("%i is negative\n",n);
 	else
-		puts("is zero");
+		fprintf("%i is zero\n",n);
 	return (0);
 }
