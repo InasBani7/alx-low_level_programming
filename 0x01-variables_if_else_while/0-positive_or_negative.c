@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - Entry Point Positive or Negative
+/**
+ * main - Entry Point Positive or Negative Indicator
  * Return: 0 (success)
  */
 int main(void)
