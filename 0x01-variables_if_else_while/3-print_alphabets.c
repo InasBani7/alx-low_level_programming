@@ -6,20 +6,18 @@
  */
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	char ALPHABET[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i = 0;
+	char alpha = 'a';
+	char ALPHA = 'A';
 
-	while (i < 26)
+	while (alpha <= 'z')
 	{
-		putchar(alphabet[i]);
-		i++;
+		putchar(alpha);
+		alpha++;
 	}
-	i = 0;
-	while (i < 26)
+	while (ALPHA <= 'Z')
 	{
-		putchar(ALPHABET[i]);
-		i++;
+		putchar(ALPHA);
+		ALPHA++;
 	}
 	putchar('\n');
 	return (0);
