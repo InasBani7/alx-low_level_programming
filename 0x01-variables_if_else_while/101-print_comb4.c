@@ -21,13 +21,11 @@ int main(void)
 				putchar(48 + w);
 				putchar(48 + z);
 				z++;
-				if (i < 7 && w < 8 && z < 9)
+				if (i != 7 && w != 8 && z != 9)
 				{
 					putchar(44);
 					putchar(' ');
 				}
-				else
-					break;
 			}
 			w++;
 		}
