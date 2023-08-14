@@ -13,10 +13,10 @@ int main(void)
 		putchar(48 + i);
 		i++;
 	}
-	i = 97;
-	while (i < 103)
+	i = 0;
+	while (i < 5)
 	{
-		putchar(48 + i);
+		putchar(97 + i);
 		i++;
 	}
 	putchar('\n');
