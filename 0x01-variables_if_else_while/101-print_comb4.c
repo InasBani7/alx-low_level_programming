@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * Description: print all 2 digit combinations excluding duplicates
+ * Description: print all 3 digit combinations excluding repetatives
  * Return: 0 (success)
  */
 int main(void)
