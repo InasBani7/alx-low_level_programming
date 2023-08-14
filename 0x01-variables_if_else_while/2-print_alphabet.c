@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char alphabet[] = "abcdefghigklmnopqrstuvwxyz";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
 	while (i < 26)
