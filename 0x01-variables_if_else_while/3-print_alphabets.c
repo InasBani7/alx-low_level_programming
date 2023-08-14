@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-        char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	char ALPHABET[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int i = 0;
+	int i = 0;
 
-        while (i < 26)
-        {
-                putchar(alphabet[i]);
-                i++;
-        }
+	while (i < 26)
+	{
+		putchar(alphabet[i]);
+		i++;
+	}
 	i = 0;
 	while (i < 26)
-        {
-                putchar(ALPHABET[i]);
-                i++;
-        }
-        putchar('\n');
-        return (0);
+	{
+		putchar(ALPHABET[i]);
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
