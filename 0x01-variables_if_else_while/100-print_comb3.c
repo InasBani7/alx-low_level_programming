@@ -11,9 +11,9 @@ int main(void)
 
 	while (i < 9)
 	{
-		putchar(48 + i);
 		while (w < 10)
 		{
+			putchar(48 + i);
 			putchar(48 + w);
 			w++;
 			if (i < 8)
