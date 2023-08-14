@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(48 + i);
 		putchar(44);
-		putchar(20);
+		putchar(' ');
 		i++;
 	}
 	return (0);
