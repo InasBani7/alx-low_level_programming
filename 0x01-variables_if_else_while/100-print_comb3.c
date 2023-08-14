@@ -16,11 +16,11 @@ int main(void)
 		{
 			putchar(48 + w);
 			w++;
-		}
-		if (i < 8)
-		{
-			putchar(44);
-			putchar(' ');
+			if (i < 8)
+                	{
+				putchar(44);
+				putchar(' ');
+			}
 		}
 		i++;
 	}
