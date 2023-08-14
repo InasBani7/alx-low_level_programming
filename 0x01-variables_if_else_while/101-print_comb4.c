@@ -15,7 +15,7 @@ int main(void)
 		while (w < 8)
 		{
 			z = w + 1;
-			while (z < 9)
+			while (z < 10)
 			{
 				putchar(48 + i);
 				putchar(48 + w);
