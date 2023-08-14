@@ -21,7 +21,9 @@ int main(void)
 				putchar(48 + w);
 				putchar(48 + z);
 				z++;
-				if (i + w + z < 24)
+				if (i == 7 && w == 8 && z == 9)
+					z++;
+				else
 				{
 					putchar(44);
 					putchar(' ');
