@@ -24,7 +24,7 @@ int main(void)
 
 				if (x != 98 || w != 99)
 				{
-					putchar(' ');
+					putchar(44);
 					putchar(' ');
 				}
 			}
