@@ -11,13 +11,14 @@ int main(void)
 
 	while (i < 9)
 	{
+		w = i + 1;
 		while (w < 10)
 		{
 			putchar(48 + i);
 			putchar(48 + w);
 			w++;
 			if (i < 8)
-                	{
+			{
 				putchar(44);
 				putchar(' ');
 			}
