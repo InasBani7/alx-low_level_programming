@@ -21,7 +21,7 @@ int main(void)
 				putchar(48 + w);
 				putchar(48 + z);
 				z++;
-				if (i < 7))
+				if (i < 7)
 				{
 					putchar(44);
 					putchar(' ');
