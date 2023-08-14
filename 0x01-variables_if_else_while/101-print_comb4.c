@@ -9,10 +9,10 @@ int main(void)
 	int i = 0;
 	int w, z;
 
-	while (i < 7)
+	while (i < 8)
 	{
 		w = i + 1;
-		while (w < 8)
+		while (w < 9)
 		{
 			z = w + 1;
 			while (z < 10)
