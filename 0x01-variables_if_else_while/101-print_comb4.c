@@ -19,6 +19,7 @@ int main(void)
 			{
 				putchar(48 + i);
 				putchar(48 + w);
+				putchar(48 + z);
 				z++;
 				if (i < 8)
 				{
