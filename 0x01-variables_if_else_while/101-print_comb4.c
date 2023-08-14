@@ -22,7 +22,7 @@ int main(void)
 				putchar(48 + z);
 				z++;
 				if (i == 7 && w == 8 && z == 9)
-					z++;
+					break;
 				else
 				{
 					putchar(44);
