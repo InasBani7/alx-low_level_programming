@@ -1,11 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry Point
- * Description: This program prints _putchar to the standard output.
+ * main - Entry point
+ * Description: Prints "_putchare" using the user defined function putchar
  * Return: 0 (Success)
  */
+
 int main(void)
 {
-	puts("\_putchar");
+	char put[] = "_putchar";
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(put[i]);
+		i++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
