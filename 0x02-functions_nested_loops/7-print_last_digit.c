@@ -8,7 +8,7 @@ int print_last_digit(int x)
 {
 	int y;
 
-	if (n < 0)
+	if (x < 0)
 		y = -( x % 10);
 	else
 		y = x & 10;
