@@ -1,4 +1,4 @@
-#include<main.h>
+#include "main.h"
 
 /**
  * print_alphabet - using the user defind function _putchar
@@ -9,6 +9,6 @@ void print_alphabet(void)
 	int alpha;
 
 	for (alpha = 'a'; alpha <= 'z' ; alpha++)
-		_putchar(ch);
+		_putchar(alpha);
 	_putchar('\n');
 }
