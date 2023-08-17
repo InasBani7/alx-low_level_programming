@@ -14,12 +14,23 @@ void print_times_table(int n)
 		while (y <= n)
 		{
 			z = x * y;
-			_putchar(z);
-			if (y != n)
+
+			if (z >= 100)
+			{
+				_putchar((z / 100) + 48);
+				_putchar((z / 10) + 48);
+			}
+			else if ((z >= 10) && (z < 100))
+				_putchar((z / 10) + 48);
+			_putchar((z % 10) + 48);
+
+			if (y < n)
 			{
 				_putchar(',');
 				_putchar(' ');
+
 			}
+
 			y++;
 		}
 		_putchar('\n');
