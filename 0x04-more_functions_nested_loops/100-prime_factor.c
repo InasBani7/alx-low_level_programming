@@ -35,18 +35,16 @@ void largest_prime_factor(long int x)
 	/* divide the smallest prime number by 2 */
 	while (x % 2 == 0)
 		x = x / 2;
-	prime = 3;
-	while (prime <= _squareroot(num))
+	for (prime = 3; prime <= _squareroot(x); prime += 2)
 	{
 		while (x % prime == 0)
 		{
 			x = x / prime;
 			largest = prime;
 		}
-		prime = prime + 2;
 	}
 	if (x > 2)
-		largest = num;
+		largest = x;
 	printf("%d\n", largest);
 }
 
