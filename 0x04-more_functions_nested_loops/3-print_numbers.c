@@ -6,7 +6,7 @@
 
 void print_numbers(void)
 {
-	int i = o;
+	int i = 0;
 
 	while (i >= 0 && i <= 9)
 	{
