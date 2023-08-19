@@ -11,8 +11,7 @@ int main(void)
 {
 	int num;
 
-	num = 0;
-	while (num < 100)
+	for (num = 0; num < 100; num++)
 	{
 		if (num % 3 == 0 && !(num % 5 == 0))
 			printf("Fizz");
@@ -27,7 +26,6 @@ int main(void)
 			printf(" ");
 		else
 			printf("\n");
-		num++;
 	}
 
 	return (0);
