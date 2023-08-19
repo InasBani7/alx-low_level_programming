@@ -4,6 +4,7 @@
  * _squareroot - finds out the square root of the given number
  * @y: Function Input
  * return: The squareroot of the given number
+ * Return: sqrt
  */
 
 double _squareroot(double y)
