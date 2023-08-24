@@ -27,7 +27,7 @@ int isseperator(char c)
 		if (c == seperator[i])
 			return (1);
 	return (0);
-}
+i}
 
 /**
  * cap_string - capitalizes all words of a string
@@ -43,7 +43,7 @@ char *cap_string(char *s)
 	{
 		if (isseperator(*s))
 			seperatorcheck = 1;
-		else if (IsLower(*s) && seperatorcheck)
+		else if (IsLower(*s))
 		{
 			*s -= 32;
 			seperatorcheck = 0;
