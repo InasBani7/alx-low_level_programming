@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include "main.h"
 
 /**
@@ -20,7 +21,7 @@ int IsLower(char c)
 int isseperator(char c)
 {
 	int i;
-	char seperator[] = " \t\n,.!?\"{}()";
+	char seperator[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
 		if (c == seperator[i])
