@@ -23,7 +23,7 @@ int isseperator(char c)
 	int i;
 	char seperator[] = " \t\n,;.!?\"(){}";
 
-	for (i = 0; i < 13; i++)
+	for (i = 0; i < 12; i++)
 		if (c == seperator[i])
 			return (1);
 	return (0);
