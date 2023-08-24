@@ -42,7 +42,7 @@ char *cap_string(char *s)
 	{
 		if (isseperator(*s))
 			seperatorcheck = 1;
-		else if (IsLower(*s))
+		else if (IsLower(*s) && seperatorcheck)
 		{
 			*s -= 32;
 			seperatorcheck = 0;
