@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * islower - hecks for lower cases.
+ * IsLower - hecks for lower cases.
  * @c: Input character.
- * return: 1 if input is lower, 0 if input is not.
+ * Return: 1 if input is lower, 0 if input is not.
  */
 int IsLower(char c)
 {
@@ -30,7 +30,7 @@ int isseperator(char c)
 
 /**
  * cap_string - capitalizes all words of a string
- * @str: input string
+ * @s: input string
  * Return: Capitalized words
  */
 char *cap_string(char *s)
